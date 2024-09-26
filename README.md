@@ -6,7 +6,7 @@
 
 ## 🚀 About Me
 
-I'm a **Software Engineer** with over **6 years of experience**, crafting both large-scale and small-scale applications. I specialize in **web development**, **API integrations**, and building **performance-optimized**, **scalable** systems. My expertise spans across **PHP**, **JavaScript**, and **SQL**, with deep knowledge of both **microservice** and **monolithic** architectures.
+I'm a **Software Engineer** with over **6 years of experience**, crafting both large-scale and small-scale applications. I specialize in **web development**, **API integrations**, and building **performance-optimized**, **scalable** systems. My expertise spans across **PHP**, **JavaScript**, **Python**, and **SQL**, with deep knowledge of both **microservice** and **monolithic** architectures.
 
 I thrive on creating user-centric solutions while always pushing the boundaries of performance and scalability. Currently, I'm expanding my skills in **automated web testing** using Selenium and diving into **algorithmic trading** to merge my software expertise with financial technology.
 
