@@ -17,6 +17,7 @@ I thrive on creating user-centric solutions while always pushing the boundaries 
 ### 🧑‍💻 Languages & Frameworks
 ![PHP](https://img.shields.io/badge/-PHP-777BB4?style=flat-square&logo=php&logoColor=white)
 ![Laravel](https://img.shields.io/badge/-Laravel-FF2D20?style=flat-square&logo=laravel&logoColor=white)
+![Drupal](https://img.shields.io/badge/-Drupal-0678BE?style=flat-square&logo=drupal&logoColor=white)
 ![VueJS](https://img.shields.io/badge/-VueJS-4FC08D?style=flat-square&logo=vue.js&logoColor=white)
 ![React](https://img.shields.io/badge/-React-61DAFB?style=flat-square&logo=react&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/-TypeScript-007ACC?style=flat-square&logo=typescript&logoColor=white)
