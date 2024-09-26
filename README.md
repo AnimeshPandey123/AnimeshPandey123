@@ -113,7 +113,6 @@ St. Xavier’s College • Maitighar, Kathmandu • 2012 - 2015
 ---
 
 ## 📈 GitHub Stats
-![Animesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=AnimeshPandey123&show_icons=true&theme=radical)
 
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnimeshPandey123&layout=compact&theme=radical)
 
