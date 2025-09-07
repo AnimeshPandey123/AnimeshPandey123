@@ -1,6 +1,6 @@
 # 👋 Hi there, I'm Animesh Pandey!
 
-🌍 **Preston, UK** | ✉️ [animeshpandey.pro@gmail.com](mailto:ani.mesh13578@gmail.com) | 📱 +977 9843608379 | ‭+44 7775658685‬ | [LinkedIn](https://www.linkedin.com/in/animesh-pandey-26546213a) | https://animeshpandey.com/
+🌍 **Preston, UK** | ✉️ [animeshpandey.pro@gmail.com](mailto:ani.mesh13578@gmail.com) | ‭+447775658685‬ | [LinkedIn](https://www.linkedin.com/in/animesh-pandey-26546213a) | https://animeshpandey.com/
 
 ---
 
