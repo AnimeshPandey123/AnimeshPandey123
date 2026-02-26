@@ -113,17 +113,18 @@ St. Xavier’s College • Maitighar, Kathmandu • 2012 - 2015
 
 ---
 
+
 ## 📈 GitHub Activity & Stats
 
-![Animesh's GitHub stats](https://github-readme-stats.vercel.app/api?username=AnimeshPandey123&show_icons=true&theme=radical&hide_border=true)
+![Animesh's GitHub stats](https://github-readme-stats-git-masterrstaa.vercel.app/api?username=AnimeshPandey123&show_icons=true&theme=radical&hide_border=true)
 
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=AnimeshPandey123&layout=compact&theme=radical&hide_border=true)
+![Top Languages](https://github-readme-stats-git-masterrstaa.vercel.app/api/top-langs/?username=AnimeshPandey123&layout=compact&theme=radical&hide_border=true)
 
 ![GitHub Streak](https://streak-stats.demolab.com/?user=AnimeshPandey123&theme=radical&hide_border=true)
 
 ## 🧭 Activity Overview
 
-![Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=AnimeshPandey123&theme=react-dark&hide_border=true)
+![GitHub Activity](https://ghchart.rshah.org/AnimeshPandey123)
 
 ---
 
