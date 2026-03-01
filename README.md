@@ -1,10 +1,26 @@
-# 👋 Hi there, I'm Animesh Pandey!
+<div align="center">
 
-🌍 **Preston, UK (GMT+0)** | ✉️ [animeshpandey.pro@gmail.com](mailto:animeshpandey.pro@gmail.com) | ‭+447775658685‬ | [LinkedIn](https://www.linkedin.com/in/animesh-pandey-26546213a) | [animeshpandey.com](https://animeshpandey.com) | [GitHub](https://github.com/AnimeshPandey123)
+# 👋 Hi there, I'm Animesh Pandey
+
+**Senior Software Engineer** · Backend & full-stack · 7+ years building scalable systems
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/animesh-pandey-26546213a)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:animeshpandey.pro@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://animeshpandey.com)
+
+*🌍 Preston, UK (GMT+0) · ✉️ animeshpandey.pro@gmail.com · 📱 +44 7775 658685*
+
+</div>
+
+---
+
+**[About](#-about-me)** · **[Skills](#-skills--technologies)** · **[Experience](#-professional-experience)** · **[Projects](#-highlighted-projects)** · **[Education](#-education)** · **[Connect](#-connect-with-me)**
 
 ---
 
 ## 🚀 About Me
+
+> *Building scalable systems · Mentoring teams · Exploring LLMs & vector DBs*
 
 I'm a **Senior Software Engineer** with **7 years of experience**, specialising in **PHP**, **Python**, and **Node.js** with a strong focus on **backend development** and building **scalable, high-performance applications**. I have a solid background in designing testable, extensible systems, optimising APIs, and applying **SOLID principles** and **TDD** methodologies.
 
@@ -34,7 +50,7 @@ My expertise includes **MySQL**, **PostgreSQL**, and **Docker**, and I excel at 
 ![LangChain](https://img.shields.io/badge/-LangChain-1C3C3C?style=flat-square)
 ![OpenAI](https://img.shields.io/badge/-OpenAI-412991?style=flat-square&logo=openai&logoColor=white)
 ![Vector DBs](https://img.shields.io/badge/-Vector_DBs_Qdrant_FAISS-DD6B20?style=flat-square)
-RESTful & GraphQL APIs • LLM Integration • Prompt Engineering
+- RESTful & GraphQL APIs · LLM Integration · Prompt Engineering
 
 ### 🗄️ Databases & Infrastructure
 ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white)
@@ -130,16 +146,24 @@ St. Xavier’s College • Maitighar, Kathmandu
 
 ## 📫 Connect with Me
 
-[![LinkedIn](https://img.shields.io/badge/-LinkedIn-blue?style=flat-square&logo=linkedin)](https://www.linkedin.com/in/animesh-pandey-26546213a)
-[![Gmail](https://img.shields.io/badge/-Gmail-D14836?style=flat-square&logo=gmail&logoColor=white)](mailto:animeshpandey.pro@gmail.com)
-[![Website](https://img.shields.io/badge/-Website-4285F4?style=flat-square&logo=google-chrome&logoColor=white)](https://animeshpandey.com)
+<div align="center">
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/animesh-pandey-26546213a)
+[![Gmail](https://img.shields.io/badge/Gmail-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:animeshpandey.pro@gmail.com)
+[![Portfolio](https://img.shields.io/badge/Portfolio-4285F4?style=for-the-badge&logo=google-chrome&logoColor=white)](https://animeshpandey.com)
+
+</div>
 
 ---
 
 
 ## 📈 GitHub Activity & Stats
 
-_Stats are updated automatically by [GitHub Actions](.github/workflows/update-readme-stats.yml) (daily and on push)._
+![Profile views](https://komarev.com/ghpvc/?username=AnimeshPandey123&style=flat-square&label=Profile+views)
+![Followers](https://img.shields.io/github/followers/AnimeshPandey123?style=flat-square&label=Followers)
+![Total stars](https://img.shields.io/github/stars/AnimeshPandey123?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&label=Stars)
+
+_Stats below are updated automatically by [GitHub Actions](.github/workflows/update-readme-stats.yml) (daily and on push)._
 
 ![Animesh's GitHub stats](https://raw.githubusercontent.com/AnimeshPandey123/AnimeshPandey123/main/assets/github-stats.svg)
 
@@ -153,4 +177,10 @@ _Stats are updated automatically by [GitHub Actions](.github/workflows/update-re
 
 ---
 
-⭐️ *Feel free to explore my projects or reach out to discuss exciting opportunities in the software world!*
+<div align="center">
+
+**⭐️ Open to collaboration and new opportunities**
+
+*Feel free to explore my projects or reach out—I'd love to connect!*
+
+</div>
