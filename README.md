@@ -163,7 +163,15 @@ St. Xavier’s College • Maitighar, Kathmandu
 ![Followers](https://img.shields.io/github/followers/AnimeshPandey123?style=flat-square&label=Followers)
 ![Total stars](https://img.shields.io/github/stars/AnimeshPandey123?affiliations=OWNER%2CCOLLABORATOR&style=flat-square&label=Stars)
 
-_Stats below are updated automatically by [GitHub Actions](.github/workflows/update-readme-stats.yml) (daily and on push)._
+_Stats below are updated automatically by [GitHub Actions](.github/workflows/update-readme-stats.yml) and [lowlighter/metrics](.github/workflows/metrics.yml) (daily and on push)._
+
+### 📊 Contribution & activity dashboard
+
+_Contribution calendar (heatmap + isometric), coding habits, commit distribution, and issues/PR stats — powered by [lowlighter/metrics](https://github.com/lowlighter/metrics)._
+
+![Metrics dashboard](https://raw.githubusercontent.com/AnimeshPandey123/AnimeshPandey123/main/assets/metrics.svg)
+
+### 📉 Profile stats & streak
 
 ![Animesh's GitHub stats](https://raw.githubusercontent.com/AnimeshPandey123/AnimeshPandey123/main/assets/github-stats.svg)
 
@@ -171,7 +179,7 @@ _Stats below are updated automatically by [GitHub Actions](.github/workflows/upd
 
 ![GitHub Streak](https://raw.githubusercontent.com/AnimeshPandey123/AnimeshPandey123/main/assets/streak.svg)
 
-## 🧭 Activity Overview
+### 🐍 Contribution snake
 
 ![GitHub Activity](https://raw.githubusercontent.com/AnimeshPandey123/AnimeshPandey123/main/assets/activity.svg)
 

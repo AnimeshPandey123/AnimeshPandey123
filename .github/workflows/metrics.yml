@@ -1,0 +1,52 @@
+# Professional GitHub metrics dashboard via lowlighter/metrics
+# Generates: contribution calendar (heatmap + isometric), coding habits, activity, issues/PRs
+# See https://github.com/lowlighter/metrics
+name: Metrics (lowlighter)
+
+on:
+  schedule:
+    - cron: '0 2 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/metrics.yml'
+      - 'README.md'
+
+jobs:
+  metrics:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      # --- Full dashboard: calendar heatmap + isometric calendar + habits + activity + issues/PRs ---
+      - name: Generate metrics dashboard
+        uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          filename: assets/metrics.svg
+          base: ""
+          config_order: calendar, isocalendar, habits, followup, activity
+          config_timezone: Europe/London
+          # 📆 Commit calendar (flat heatmap, current year)
+          plugin_calendar: yes
+          plugin_calendar_limit: 1
+          # 📅 Isometric contribution calendar (half-year)
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          # 💡 Coding habits: commits by hour/day, productive days, facts
+          plugin_habits: yes
+          plugin_habits_from: 200
+          plugin_habits_days: 14
+          plugin_habits_facts: yes
+          plugin_habits_charts: yes
+          plugin_habits_charts_type: graph
+          # 🎟️ Issues & pull requests overview
+          plugin_followup: yes
+          plugin_followup_sections: repositories, user
+          # 📰 Recent activity (pushes, issues, PRs, etc.)
+          plugin_activity: yes
+          plugin_activity_limit: 10
+          plugin_activity_days: 14
+          plugin_activity_filter: push, issue, pr, release, review
