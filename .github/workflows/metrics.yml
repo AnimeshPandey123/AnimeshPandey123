@@ -20,7 +20,7 @@ jobs:
       contents: write
 
     steps:
-      # --- Dashboard: calendar heatmap + isometric calendar + issues/PRs (habits/activity disabled: need PAT to avoid "Unexpected error") ---
+      # --- Dashboard: calendar heatmap + isometric + issues/PRs only (no habits/activity to avoid API errors) ---
       - name: Generate metrics dashboard
         uses: lowlighter/metrics@latest
         with:
@@ -35,8 +35,9 @@ jobs:
           # 📅 Isometric contribution calendar (half-year)
           plugin_isocalendar: yes
           plugin_isocalendar_duration: half-year
-          # 🎟️ Issues & pull requests overview
+          # 🎟️ Issues & pull requests
           plugin_followup: yes
           plugin_followup_sections: repositories, user
-          # 💡 Habits & 📰 Activity disabled: they often hit API limits with GITHUB_TOKEN.
-          # Re-enable with token: ${{ secrets.METRICS_TOKEN }} (PAT) and add habits, activity to config_order.
+          # Explicitly off so they never run (they cause "Unexpected error" with GITHUB_TOKEN)
+          plugin_habits: "no"
+          plugin_activity: "no"
