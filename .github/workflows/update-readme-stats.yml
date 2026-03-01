@@ -1,0 +1,78 @@
+# Generate GitHub profile stats on-the-fly using GitHub API (no external services).
+# All SVGs are built inside this workflow and committed to the repo.
+name: Update README stats
+
+on:
+  schedule:
+    - cron: '0 0 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/update-readme-stats.yml'
+      - 'README.md'
+
+jobs:
+  generate-stats:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Create assets directory
+        run: mkdir -p assets
+
+      # --- Stats card (repos + contributions) ---
+      - name: Generate GitHub stats card
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: assets/github-stats.svg
+          colors: dark
+          include-title: true
+          hide-keys: languages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Top languages only ---
+      - name: Generate Top Languages card
+        uses: cicirello/user-statistician@v1
+        with:
+          image-file: assets/top-langs.svg
+          colors: dark
+          include-title: false
+          hide-keys: general, contributions, repositories
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # --- Streak stats (current/longest streak, total contributions) ---
+      - name: Generate streak stats
+        uses: muhammad-fiaz/github-readme-streak-stats@v1.0.1
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          THEME: dark
+          OUTPUT_PATH: assets/streak.svg
+          HIDE_BORDER: 'true'
+
+      # --- Contribution graph (snake) ---
+      - name: Generate activity snake
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            assets/activity.svg?palette=github-dark
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add assets/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "chore: update README stats [automated]"
+            git push
+          fi
